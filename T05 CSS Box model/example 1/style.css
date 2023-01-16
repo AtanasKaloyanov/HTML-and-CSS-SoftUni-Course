@@ -1,0 +1,44 @@
+div {
+    background-color: lightgray;
+    /* width: 433px; */
+}
+
+article {
+    background-color: lightcyan;
+    /* min-width: 10%;
+    max-width: 80%; */
+
+    height: 150px;
+    width: 500px;
+    /* max-height: 700px; */
+    overflow: hidden;
+
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+article h2 {
+    padding: 24px;
+    width: 50%;
+    background-color: lightcoral;
+}
+
+article span {
+    background-color: lightcoral;
+    padding: 4px;
+    margin: 8px;
+    display: inline-block;
+}
+
+.tag {
+    background-color: lightgreen;
+    margin: 0;
+    margin-bottom: 6px;
+    padding: 4px;
+    border-radius: 4px;
+    display: inline;
+
+    margin: 0 auto;
+}
+
+
