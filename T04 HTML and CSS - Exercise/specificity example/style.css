@@ -1,0 +1,24 @@
+.first {
+    color: orangered;
+}
+
+p.first {
+    color: green;
+    font-weight: bold;
+}
+
+/* li {
+    background-color: lightblue;
+}
+
+#one {
+    background-color: coral;
+} */
+
+ul #one p.first.first {
+    background-color: coral;
+}
+
+ul #one p.first {
+    background-color: lightgreen;
+}
