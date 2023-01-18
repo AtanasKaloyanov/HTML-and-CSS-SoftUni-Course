@@ -22,14 +22,16 @@ main {
 .articles-list .article-item {
     width: 30%;
     display: inline-block;
-    margin-right: 5%;
+    margin-right: 1.66%;
+    margin-left: 1.66%;
     margin-bottom: 18px;;
+    vertical-align: top;
 }
 
 
-.articles-list .article-item:nth-child(3n) {
+/* .articles-list .article-item:nth-child(3n) {
   margin-right: 0;
-}
+} */
 
 /* Article component */
 
