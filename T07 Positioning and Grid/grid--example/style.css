@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eaebec;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .grid-layout .grid-item:nth-child(1) {
+    background-color: #845EC2;
+}
+
+.grid-layout .grid-item:nth-child(2) {
+    background-color: #D65DB1;
+}
+
+.grid-layout .grid-item:nth-child(3) {
+    background-color: #FF6F91;
+}
+
+.grid-layout .grid-item:nth-child(4) {
+    background-color: #FF9671;
+}
+
+.grid-layout .grid-item:nth-child(5) {
+    background-color: #FFC75F;
+}
+
+.grid-layout .grid-item:nth-child(6) {
+    background-color: #F9F871;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.page-layout {
+    margin-top: 4rem;
+    display: grid;  
+    gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  
+  grid-template-areas:
+  'nav nav nav'
+  'sidebar content content'
+  'foot foot foot';
+}
+
+.page-layout > * {
+    background-color: #0081CF;
+    padding: 1 rem;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.page-layout header {
+    /* grid-column: 1 / 4; */
+    grid-area: nav;
+}
+
+.page-layout aside {
+    background-color: red;
+    /* grid-column: 1 / 2;
+    grid-row: 2 / 3; */
+    grid-area: sidebar;
+}
+
+.page-layout main {
+  background-color: orange;
+  /* grid-column: 2 / 4; */
+  grid-area: content;
+}
+
+.page-layout footer {
+    /* grid-column: 1 / 4; */
+    grid-area: foot;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
