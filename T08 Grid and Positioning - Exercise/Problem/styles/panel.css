@@ -1,0 +1,21 @@
+.panel {
+    /* max-width: 400px;
+    margin: 0 auto; */
+    background-color: #FF9671;
+    border-radius: 14px;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+	filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+.panel .panel__icon {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.panel .panel__text {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
