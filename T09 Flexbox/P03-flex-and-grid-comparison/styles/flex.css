@@ -1,0 +1,16 @@
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px; 
+    justify-content: space-between;
+}
+
+.container-flex .item {
+    width: calc(100% / 3 - 16px);
+}
