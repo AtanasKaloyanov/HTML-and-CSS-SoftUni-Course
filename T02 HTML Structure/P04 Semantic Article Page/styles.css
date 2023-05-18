@@ -1,21 +1,21 @@
 body {
-    margin: 0px;
-    padding: 0px;
-}
-
-main {
+    padding: 5px 15px;
     background-color: #e4e978;
-    padding: 10px;
+}
+ 
+ article {
+   width: 640px;
+   background-color: #f2f4c0;
+   border: 1px solid #b2ad7d;
+   margin: 15px 10px;
+   padding: 5px 15px;
 }
 
-article {
-    background-color: #f2f4c0;
-    width: 640px;
-    margin: 20px;
-    padding: 10px 20px;
-}
-
-.comments, .postedBy {
-    color: hsl(133.5deg 19.42% 40.39%);
+ section article {
     font-style: italic;
+    color: #4c7658;
+}
+
+section article h3 {
+    font-size: 24px;
 }
