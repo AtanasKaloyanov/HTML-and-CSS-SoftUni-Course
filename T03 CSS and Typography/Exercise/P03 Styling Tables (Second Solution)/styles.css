@@ -1,0 +1,17 @@
+table {
+    width: 460px;
+    table-layout: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px solid hsl(0deg 0% 82.75%);
+    font-size: 18px;
+    /* border: none; */
+}
+
+thead tr th {
+    padding: 5px 20px;
+    background-color: hsl(194.74deg 53.27% 79.02%);
+}
+
+tbody tr td {
+    padding: 5px 5px;
+}
