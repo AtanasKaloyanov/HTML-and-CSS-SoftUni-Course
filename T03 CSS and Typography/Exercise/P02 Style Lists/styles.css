@@ -1,0 +1,20 @@
+body {
+    background-color: hsl(0deg 0% 92.94%);;
+    font-size: 20px;
+}
+
+h2 {
+    border: 1px solid #000000;
+    background-color: #3b516b;
+    text-decoration: underline;
+    color: hsl(44deg 38.46% 92.35%);
+    border-radius: 10px;
+    padding: 22px 18px ;
+    letter-spacing: 3px;
+    text-transform: capitalize
+}
+
+ol, ul {
+    line-height: 1.4;
+    margin-left: 15px;
+}
