@@ -1,0 +1,65 @@
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+body {
+    font-size: 20px;
+}
+
+nav ul {
+   list-style-type: none;
+   border: 1px solid hsl(0deg 0% 90.59%);
+   background-color: (0deg 0% 96.08%);
+   width: 200px;
+   height: 150px;
+   padding-top: 20px;
+   margin-bottom: 40px;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li i {
+    margin-right: 10px;
+    color: hsl(4deg 59.52% 50.59%);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(4deg 59.52% 50.59%);
+}
+
+main ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+
+main ul li {
+    display: inline-block;
+}
+
+main ul li button {
+    padding: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+main ul li #checkout {
+    background-color: hsl(84.52deg 37.96% 48.04%)
+}
+
+main ul li #info {
+    background-color: hsl(199.04deg 100% 40.78%);
+}
+
+main ul li #delete {
+    background-color: hsl(4deg 59.52% 50.59%);
+}
+
+main ul li i {
+    margin-right: 10px;
+}
+
