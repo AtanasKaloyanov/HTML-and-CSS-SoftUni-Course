@@ -1,0 +1,16 @@
+body {
+    background-color: hsl(210deg 50% 40%);
+    color: hsl(0deg 0% 99.61%);
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+  text-indent: 30px;
+}
+
+p {
+text-indent: 30px;
+}
