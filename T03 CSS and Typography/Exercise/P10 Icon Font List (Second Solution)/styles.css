@@ -1,0 +1,18 @@
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.check i {
+    color: green;
+}
+
+.star i {
+    color: orange;
+}
+
+.contact i {
+    color: hsl(203.86deg 69.17% 52.94%);
+}
