@@ -1,0 +1,26 @@
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+p {
+    border: 1px solid gray;
+    width: 100px;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+p i {
+    margin-right: 8px;
+    color: white;
+}
+
+p a {
+    text-decoration: none;
+    color: white;
+}
+
+#green {
+    background-color: hsl(120deg 100% 25.1%);
+}
+
+#orange {
+    background-color: hsl(38.82deg 100% 50%);
+}
