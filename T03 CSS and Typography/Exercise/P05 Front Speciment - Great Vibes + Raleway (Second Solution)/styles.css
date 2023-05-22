@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body {
+    padding: 80px;
+    line-height: 1.4;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    margin: 10px
+}
