@@ -1,0 +1,62 @@
+html {
+    padding: 70px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Raleway, sans-serif;
+}
+
+article.level_1 h1, article.level_1 h2, article.level_1 h3, article.level_1 h4, article.level_1 h5, article.level_1 h6 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+article.level_1 hr.line_1 {
+    margin: 30px 0px;
+}
+
+article.level_1 hr.line_2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+article.level_2 h2 {
+    font-weight: bold;
+    font-family: Great Vibes, cursive;
+}
+
+article.level_2 ul {
+    margin: 10px 0px;
+}
+
+article.level_2 table thead tr th {
+    height: 10px;
+    width: 500px;
+    text-align: left;
+    padding: 5px;
+    background-color: hsl(0deg 0% 80%);
+}
+
+article.level_2 table tbody tr td {
+   height: 10px;
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+article.level_2 table tbody tr.odd {
+    background-color: hsl(0deg 0% 94.51%);
+}
+
+article.level_2 div {
+    border-left: 5px solid #ddd;
+    height: 180px;
+    margin-left: 30px;
+    padding-left: 30px;
+    font-family: cursive;
+}
+
+article.level_2 div p:nth-child(3) {
+text-align: right;
+} 
+
+
