@@ -1,0 +1,16 @@
+body {
+    background-color: #778899;
+}
+
+p {
+   background-color: hsl(207.33deg 75% 23.53%);
+   color: #e6efe7;
+   width: 500px;
+   font-size: 22px;
+   letter-spacing: 2px;
+   line-height: 1.3;
+   margin: 0 auto;
+   border-radius: 20px 80px;
+   padding: 40px;
+   border: 2px solid white;
+}
