@@ -1,0 +1,33 @@
+article {
+    padding: 10px;
+    width: 620px;
+    background-color: hsl(195deg 95.83% 18.82%)
+}
+
+h2 {
+    text-align: center;
+    color: hsl(54.92deg 93.65% 87.65%);
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+div {
+    text-align: center;
+    border-bottom: 2px solid white;
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+div span {
+    background-color: white;
+    padding: 2px 15px;
+    font-size: 13px;
+}
+
+p {
+    color: white;
+    text-indent: 30px;
+    margin-bottom: 8px;
+}
