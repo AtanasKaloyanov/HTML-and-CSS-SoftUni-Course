@@ -1,0 +1,16 @@
+button {
+    background-color: hsl(351.97deg 65.15% 52.75%);
+    color: hsl(0deg 72.41% 94.31%);
+    border: 2px solid;
+    border-color: hsl(0deg 0% 56.08%) hsl(0deg 0% 12.94%);
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 8px 0;
+    cursor: pointer;
+    width: 230px;
+}
+
+p {
+    font-size: 18px;
+}
