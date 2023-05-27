@@ -1,0 +1,33 @@
+body {
+    padding: 50px 100px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 36px;
+}
+
+ul {
+    list-style-type: none;  
+    display: inline-block; 
+    margin-left: 60px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #000000;
+}
+
+h3 {
+    font-size: 22px;
+}
