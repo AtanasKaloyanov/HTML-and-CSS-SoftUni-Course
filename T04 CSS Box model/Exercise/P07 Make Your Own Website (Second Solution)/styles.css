@@ -1,0 +1,21 @@
+div {
+    border: 1px solid #000000;
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    padding: 0 20px;
+    background-color: #0F4069;
+    border-radius: 2px;
+}
+
+div h3 {
+    color:bisque;
+}
+
+div p {
+    color:white;
+}
+
+.center:hover {
+    background-color: lightblue;
+}
