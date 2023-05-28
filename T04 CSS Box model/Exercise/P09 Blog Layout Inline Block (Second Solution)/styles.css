@@ -1,0 +1,29 @@
+body {
+    background-color: hsl(0deg 0% 93.33%);
+}
+
+header {
+    width: 280px;
+    display: inline;
+    float: right;
+}
+
+main {
+    width: 740px;
+    display: inline-block;
+    position: relative;
+}
+
+img {
+    width: 530px;
+    height: 300px;
+}
+
+section {
+    position: absolute;
+    right: -300px;
+    top: 10px;
+    width: 280px;
+}
+
+
