@@ -1,0 +1,54 @@
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+section {
+    width: 1000px;
+    height: 680px;
+    border: 1px solid #000000;
+}
+
+.first {
+    background-color: aqua;
+    height: 340px;
+}
+
+.second {
+    background-color: orange;
+    height: 340px;
+}
+
+article {
+    position: relative;
+}
+
+.lake {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+.mountain {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+.first i {
+    position: absolute;
+    left: 575px;
+    bottom: 125px;
+    color: white;
+
+}
+
+.second i {
+   position: absolute;
+   bottom: 25px;
+   left: 580px;
+   color: white;
+} 
