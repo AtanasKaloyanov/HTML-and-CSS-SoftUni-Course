@@ -1,0 +1,26 @@
+p {
+ width: 450px;
+ height: 300px;
+}
+
+.first {
+    background-color: blue;
+    position: relative;
+    z-index: 3;
+}
+        
+.second {
+    background-color: red;
+    transform: translate(100px, -100px);
+    position: relative;
+    z-index: 2;
+}
+
+.third {
+    background-color: green;
+    transform: translate(200px, -200px);
+    position: relative;
+    z-index: 4;
+}
+
+
