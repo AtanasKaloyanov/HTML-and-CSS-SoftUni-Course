@@ -79,10 +79,11 @@ main h2 {
 
 .second_section div.middle_container {
     padding-right: 60px;
-    border-right: 2px solid gray;
+    border-right: 5px solid gray;
     vertical-align: top;
     margin-top: 20px;
     height: 300px;
+    opacity: 0.2;
 }
 
 .second_section div p.right_container {
@@ -122,7 +123,6 @@ main h2 {
 .third_section p:nth-child(3) {
     display: inline-block;
     width: 65%; 
-    vertical-align: top;
     margin-bottom: 40px
 }
 
