@@ -1,6 +1,7 @@
 body {
     padding: 60px 215px;
-    background-color: hsl(0deg 0% 93.33%);;
+    background-color: hsl(0deg 0% 93.33%);
+    position: relative;
 }
 
 /* header */
@@ -33,6 +34,7 @@ header nav ul li {
 header nav ul li a {
     color: hsl(148, 46%, 40%);
     text-decoration: none;
+    font-size: 18px;
 }
 
 hr {
@@ -128,4 +130,24 @@ main h2 {
   display: inline;
 }
 
+/* aside */
 
+aside {
+    position: absolute;
+    top: 180px;
+    right: 340px;
+}
+
+aside h2 {
+    font-size: 30px;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    color: hsl(148, 46%, 40%);
+    text-decoration: none;
+    font-size: 18px;
+} 
