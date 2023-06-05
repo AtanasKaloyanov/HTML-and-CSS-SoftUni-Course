@@ -15,3 +15,25 @@ nav ul li a {
     padding: 10px;
     border-radius: 20px;
 }
+
+nav ul li:nth-child(1) a:hover {
+    color: hsl(220.65deg 44.08% 41.37%);
+}
+
+nav ul li:nth-child(2) a:hover {
+    color: hsl(196.46deg 100% 46.47%);
+}
+
+nav ul li:nth-child(3) a:hover {
+    color: hsl(6.59deg 70.69% 54.51%);
+}
+
+nav ul li:nth-child(4) a:hover {
+    color: hsl(199.62deg 72.6% 42.94%);
+}
+
+nav ul li:nth-child(5) a:hover {
+    color: hsl(200deg 49.51% 79.8%);
+}
+
+
