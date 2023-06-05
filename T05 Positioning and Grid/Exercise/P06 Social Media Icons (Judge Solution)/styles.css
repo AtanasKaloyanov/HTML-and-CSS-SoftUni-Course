@@ -1,0 +1,39 @@
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+ ul {
+    list-style-type: none;
+}
+
+ ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ ul li a {
+    color: hsl(0deg 0% 14.9%);
+    background-color: hsl(0deg 0% 93.33%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+ ul li:nth-child(1) a:hover {
+    color: hsl(220.65deg 44.08% 41.37%);
+}
+
+ ul li:nth-child(2) a:hover {
+    color: hsl(196.46deg 100% 46.47%);
+}
+
+ ul li:nth-child(3) a:hover {
+    color: hsl(6.59deg 70.69% 54.51%);
+}
+
+ ul li:nth-child(4) a:hover {
+    color: hsl(199.62deg 72.6% 42.94%);
+}
+
+ ul li:nth-child(5) a:hover {
+    color: hsl(200deg 49.51% 79.8%);
+}
+
+
