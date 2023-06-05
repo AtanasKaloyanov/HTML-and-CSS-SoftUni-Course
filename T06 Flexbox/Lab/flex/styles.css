@@ -1,0 +1,30 @@
+div p:nth-child(1) {
+    background-color: red;
+    width: 1000px;
+    height: 100px;
+}
+
+div p:nth-child(2) {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+div p:nth-child(3) {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+div {
+    background-color: green;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+div p {
+    margin: 0;
+}
