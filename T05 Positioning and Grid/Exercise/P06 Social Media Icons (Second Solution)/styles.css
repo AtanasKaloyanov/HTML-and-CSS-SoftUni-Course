@@ -1,0 +1,17 @@
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: hsl(0deg 0% 14.9%);
+    background-color: hsl(0deg 0% 93.33%);
+    padding: 10px;
+    border-radius: 20px;
+}
