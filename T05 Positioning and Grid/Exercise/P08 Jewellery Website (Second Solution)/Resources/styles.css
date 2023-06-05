@@ -1,0 +1,15 @@
+section {
+    position: relative;
+    bottom: 530px;
+    left: 180px;
+}
+
+section div {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+section div h3 {
+    margin: 0;
+}
