@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    max-width: 65vw;
+    height: 500px;
+    text-align: center;
+}
+
+span {
+    /* box-sizing: border-box; */
+    border: 1px solid black;
+    padding-top: 20px;
+}
+
+/* section week */
+
+section.week {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+span.workweek {
+    width: 100%;
+    height: 25%;
+}
+
+span.workday {
+    width: 20%;
+    height: 25%;
+}
+
+span.workday:nth-child(6) {
+    border-right: 0;
+}
+
+span.weekend {
+    width: 100%;
+    height: 25%;
+}
+
+span.weekend_day {
+    width: 50%;
+    height: 25%;   
+}
+
+/* section notes */
+
+section.notes {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.notes span {
+    width: 100%;
+    height: 50%;
+}
