@@ -10,7 +10,6 @@ div {
 }
 
 span {
-    /* box-sizing: border-box; */
     border: 1px solid black;
     padding-top: 20px;
 }
@@ -23,7 +22,6 @@ section.week {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 span.workweek {
     width: 100%;
