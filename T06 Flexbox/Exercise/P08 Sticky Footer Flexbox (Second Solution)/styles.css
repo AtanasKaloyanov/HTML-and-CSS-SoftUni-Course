@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 38px;
+    padding-left: 30px;
+}
+
+main {
+    padding: 0 30px;
+    margin: 50px 0;
+}
+
+footer {
+    background-color: hsl(0deg 0% 40%);
+    color: hsl(225deg 7.14% 89.02%);
+    padding: 3px 25px;
+}
