@@ -1,0 +1,38 @@
+body {
+    padding: 40px 80px;
+}
+
+/* header */
+
+header {
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+/* main */
+
+/* first section */
+
+.subway_section {
+    display: flex;
+}
+
+.subway_section > div > div {
+display: inline-flex;
+width: 90%;
+flex-wrap: wrap;
+}
+
+.subway_section > div > div > p:nth-child(1) {
+    width: 50%;
+}
+
+.subway_section > div > div img {
+   
+}
+
+
+
