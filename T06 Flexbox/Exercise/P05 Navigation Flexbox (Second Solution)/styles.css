@@ -1,0 +1,39 @@
+body {
+    padding: 40px 80px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+   text-transform: uppercase;
+   font-size: 38px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: hsl(123deg 75.33% 59.1%);  
+}
+
+hr {
+    border: 1px solid black;
+}
+
+main h2 {
+    margin-top: 32px;
+}
+
+
+
