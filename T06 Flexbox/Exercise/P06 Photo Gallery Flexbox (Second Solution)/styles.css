@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul li {
+    border: 10px solid #000000;
+    padding: 30px 20px;
+    display: flex;
+}
+
+ul li img {
+   align-self: center;
+   box-shadow: 0 0 10px 2px #000000;
+}
