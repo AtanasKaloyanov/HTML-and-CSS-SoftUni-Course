@@ -1,0 +1,35 @@
+/* section.layout_flex */
+
+section.layout_flex {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+section.layout_flex ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 0;
+}
+
+section.layout_flex ul li {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px black;
+}
+
+section.layout_flex ul li div h5, section.layout_flex ul li div p {
+   padding: 10px 20px;
+}
+
+section.layout_flex img {
+    width: 100%;
+    border-radius: 10px;
+}
+
