@@ -1,3 +1,67 @@
+/* section.layout_masonry*/
+
+section.layout_masonry {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+section.layout_masonry ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+section.layout_masonry ul li {
+    /* width: 30%; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.layout_masonry ul li.mountain {
+    grid-row: span 6
+}
+
+section.layout_masonry ul li.lizard {
+    grid-row: span 7;
+}
+
+section.layout_masonry ul li.Eiffel_Tower {
+    grid-row: span 10;
+}
+
+section.layout_masonry ul li.tree {
+    grid-row: span 7;
+}
+
+section.layout_masonry ul li div h4 {
+   padding-left: 35px;
+   margin-top: 20px;
+   margin-bottom: 8px;
+   font-weight: 400;
+}
+
+section.layout_masonry ul li div p:nth-child(3) {
+    padding: 0px 35px 35px 35px;
+    margin: 0;
+}
+
+section.layout_masonry ul li div p:nth-child(1) {
+    padding: 35px 35px 10px 35px;
+    border-top: 1px solid lightgrey;
+}
+
+section.layout_masonry img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 /* section.layout_flex */
 
 section.layout_flex {
