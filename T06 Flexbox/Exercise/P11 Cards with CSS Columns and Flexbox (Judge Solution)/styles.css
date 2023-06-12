@@ -1,0 +1,124 @@
+h2 {
+    margin-left: 325px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+/* cards-layout masonry */
+
+div.cards-layout.masonry {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 23px;
+    line-height: 1.3;
+    margin-bottom: 70px;
+}
+
+div.cards-layout.masonry ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+div.cards-layout.masonry ul li {
+    /* width: 30%; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.cards-layout.masonry ul li.mountain {
+    grid-row: span 6
+}
+
+div.cards-layout.masonry ul li.lizard {
+    grid-row: span 7;
+}
+
+div.cards-layout.masonry ul li.Eiffel_Tower {
+    grid-row: span 10;
+}
+
+div.cards-layout.masonry ul li.tree {
+    grid-row: span 7;
+}
+
+div.cards-layout.masonry ul li section h3 {
+   padding-left: 35px;
+   margin-top: 20px;
+   margin-bottom: 8px;
+   font-weight: 300;
+}
+
+div.cards-layout.masonry ul li section p:nth-child(3) {
+    padding: 0px 35px 35px 35px;
+    margin: 0;
+}
+
+div.cards-layout.masonry ul li footer p {
+    padding: 35px 35px 10px 35px;
+    border-top: 1px solid lightgrey;
+}
+
+div.cards-layout.masonry img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* cards-layout flex */
+
+div.cards-layout.flex {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+div.cards-layout.flex ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 0;
+}
+
+div.cards-layout.flex ul li {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px black;
+}
+
+div.cards-layout.flex ul li section h3 {
+   padding-left: 35px;
+   margin-top: 20px;
+   margin-bottom: 8px;
+   font-weight: 300;
+}
+
+div.cards-layout.flex ul li section p:nth-child(3) {
+    padding: 0px 35px 35px 35px;
+    margin: 0;
+}
+
+div.cards-layout.flex ul li footer p {
+    padding: 35px 35px 10px 35px;
+    border-top: 1px solid lightgrey;
+}
+
+div.cards-layout.flex img {
+    width: 100%;
+    border-radius: 10px;
+}
+
