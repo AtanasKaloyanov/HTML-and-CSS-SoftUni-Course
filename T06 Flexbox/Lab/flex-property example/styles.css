@@ -1,0 +1,49 @@
+/* div {
+    display: grid;
+    background-color: green;
+    height: 500px;
+    grid-template-columns: repeat(3, auto);
+}
+
+div p {
+    border: 5px solid black;
+   
+}
+
+div p:nth-child(1) {
+    background-color: red;
+    grid-row: span 10;
+}
+
+div p:nth-child(2) {
+    background-color: blue;
+    grid-row: span 7;
+}
+
+
+div p:nth-child(3) {
+    background-color: yellow;
+    grid-row: span 6;
+}
+
+
+div p {
+    margin: 0;
+} */
+
+div.cat {
+    display: flex;
+    background-color: orange;
+    
+}
+
+div.cat p.first {
+    background-color: gray;
+    flex: 2 0 20%;
+    
+}
+
+div.cat p.second {
+    background-color: aqua;
+    flex: 1 0 20%;
+}
