@@ -1,0 +1,68 @@
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+body {
+    background-color: hsl(0deg 0% 100%);
+}
+
+div.container {
+    border: 2px solid hsl(0deg 0% 68.24%);
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+div p {
+    background-color: hsl(0deg 0% 97.25%);
+    border: 2px solid hsl(0deg 0% 69.41%);
+    margin: 0;
+    position: absolute;
+    top: -20px;
+    left: -2px;
+    padding: 7px 100px 7px 10px;
+}
+
+div form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+div form div label {
+    color: hsl(0deg 0% 17.65%);
+    font-weight: 900;
+}
+
+div form div i {
+    position: relative;
+    left: 25px;
+}
+
+div form div input {
+    margin-bottom: 30px;
+    padding: 5px 0;
+    border: 2px solid #e2e2e2;
+    border-radius: 2px;
+    width: 70%;
+
+}
+
+div button {
+  margin-left: 20px;
+  padding: 5px 15px;
+  background-color: hsl(0deg 0% 17.65%);
+}
+
+div button a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    div form div label {
+        display: block;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+}
