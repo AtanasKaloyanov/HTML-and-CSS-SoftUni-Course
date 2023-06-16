@@ -45,11 +45,14 @@ form fieldset i {
 
 form fieldset input {
     margin-bottom: 20px;
-    padding: 5px 0;
+    padding: 5px 25px;
     border: 2px solid #e2e2e2;
     border-radius: 2px;
-    width: 70%;
+    width: 60%;
+}
 
+form fieldset input:focus {
+    background-color: aquamarine
 }
 
 form button {
