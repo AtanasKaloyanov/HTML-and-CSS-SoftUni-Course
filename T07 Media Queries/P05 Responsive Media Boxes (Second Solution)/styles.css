@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(0deg 0% 93.33%);
+}
+
+section {
+    width: 33%;
+    height: 70vh;
+    border-radius: 8px;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+}
+
+section div.sunset {
+    height: 50%;
+}
+
+section div.description {
+    height: 35%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+section div.sunset img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+section div.description {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 40px ;
+    position: relative;
+}
+
+section div.description h2 {
+    font-size: 1.8em;
+    margin-top: 15px;
+}
+
+section div.description p {
+    font-size: 24px;
+    line-height: 1.3;
+    padding-right: 20px;
+}
+
+section div.description button {
+    background-color: hsl(120.4deg 97.4% 30.2%);
+    padding: 10px 20px ;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    border: 1px solid green;
+}
+
+section div.description button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+@media (max-width: 1800px) {
+   section {
+    width: auto;
+   }
+
+   section div.description p {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 1200px) {
+    section div.description p {
+    font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    section div.description p {
+        font-size: 14px;
+        }
+}
