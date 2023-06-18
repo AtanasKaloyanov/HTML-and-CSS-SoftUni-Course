@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(0deg 0% 93.33%);
+    font-family: Helvetica, sans-serif;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 0.2px solid lightgray;
+    padding: 8px;
+
+}
+
+thead tr th {
+    color: hsl(0deg 0% 89.41%);
+    background-color: hsl(0deg 0% 20%);
+    text-align: left;
+}
+
+ tr:nth-child(1) td {
+    background-color: hsl(0deg 0% 94.51%);
+}
+
+ tr:nth-child(2) td {
+    background-color: hsl(0deg 0% 100%);
+}
+
+@media (max-width: 599px) {
+
+    th,
+    td {
+        display: block;
+    }
+    
+    thead tr th {
+        background-color: hsl(0deg 0% 94.51%);
+        color: black;
+    }
+
+    table.eaters tbody tr td {
+        background-color: hsl(0deg 0% 100%);
+    }
+}
