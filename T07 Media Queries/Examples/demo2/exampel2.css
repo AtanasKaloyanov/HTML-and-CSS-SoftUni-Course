@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 800px;
+    margin: 0 auto
+}
+
+nav ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px
+}
+
+table {
+    width: 460px;
+    table-layout: fixed;
+    border: 0px solid hsl(0deg 0% 82.75%);
+}
+
+th, td {
+    border: 1px solid green;
+    text-align: center
+}
+
