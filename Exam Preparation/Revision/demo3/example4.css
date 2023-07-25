@@ -1,0 +1,10 @@
+table {
+    height: 300px;
+    background-color: red;
+}
+
+td {
+    vertical-align: top;
+    border: 1px solid black;
+}
+
