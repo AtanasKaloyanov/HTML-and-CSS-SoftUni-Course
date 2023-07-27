@@ -1,0 +1,12 @@
+#hello {
+    background-color: red;
+    border: 3px solid black;
+    padding: 5px;
+    outline: 20px solid green;
+}
+
+#bye {
+    background-color: yellow;
+    border: 3px solid black;
+    margin-top: 30px;
+}
