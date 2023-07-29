@@ -1,0 +1,30 @@
+div {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    
+}
+
+div p:nth-child(1) {
+background-color: red;
+}
+
+div p:nth-child(2) {
+    background-color: blue;
+}
+
+div p:nth-child(3) {
+    background-color: green;
+}
+
+div p:nth-child(4) {
+    background-color: orange;
+}
+
+div p:nth-child(5) {
+    background-color: pink;
+}
+
+div p:nth-child(6) {
+    background-color: blueviolet;
+}
+
