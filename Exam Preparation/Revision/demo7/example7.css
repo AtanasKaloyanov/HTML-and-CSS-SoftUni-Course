@@ -1,0 +1,55 @@
+div {
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+}
+
+.container p:nth-child(1) {
+    grid-area: a;
+    background-color: red;
+}
+
+.container p:nth-child(2) {
+    background-color: blue;
+    grid-area: b;
+}
+
+.container p:nth-child(3) {
+    background-color: yellow;
+    grid-area: c;
+}
+
+.container p:nth-child(4) {
+    background-color: green;
+    grid-area: d;
+}
+
+.container p:nth-child(5) {
+    background-color: aqua;
+    grid-area: e;
+}
+
+.container p:nth-child(6) {
+    background-color: bisque;
+    grid-area: f;
+}
+
+.container p:nth-child(7) {
+    background-color: blueviolet;
+    grid-area: g;
+}
+
+.container p:nth-child(8) {
+    background-color: pink;
+    grid-area: h;
+}
+
+.container p:nth-child(9) {
+    background-color: brown;
+    grid-area: i;
+}
+
