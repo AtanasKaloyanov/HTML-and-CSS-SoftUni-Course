@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html {
+    line-height: 1.15;
+    font-family: Inter;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: #000000;
+    background-color: #d9d9d9;
+  }
+  
+  p,
+  li,
+  ul,
+  pre,
+  div,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  figure,
+  blockquote,
+  figcaption {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    height: 200px;
+  }
+
+section {
+    width: 1800px;
+    height: 800px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+section ul {
+    display: flex;
+    list-style-type: none;
+}
+
+section ul li {
+    width: 25%;
+    margin-right: 40px;
+    box-shadow: 0 0 10px 2px gray;
+}
+
+/* nature div */
+
+section ul li div.img_container img {
+    width: 100%;
+    height: 220px;
+}
+
+/* text div */
+ section div.text_container {
+      padding: 20px 30px;
+      color: gray;
+ }
+
+ section div.text_container h4 {
+  margin-bottom: 10px;
+ }
+
+ section div.text_container h2 {
+    color: #000000;
+     font-weight: 300;
+     margin-bottom: 30px;
+ }
+
+ section div.text_container p {
+    padding-right: 30px;
+ }
+
+ /* last div */
+ li div:nth-child(3) {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    
+ }
+
+ li div:nth-child(3) hr {
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    margin-top: 0;
+ }
+
+ li div:nth-child(3) img {
+    height: 40px;
+    width: 40px;
+    border-radius: 80%;
+    vertical-align: middle;
+ }
+
+ li div:nth-child(3) span:nth-child(3) {
+    margin-right: 180px;
+    font-weight: 300;
+ }
+
+ li div:nth-child(3) span:nth-child(4) {
+    opacity: 0.3;
+ }
+
+
+
+
+/* <li class="column1">
+<div class="img_container">
+    <img src="images/photo1.jpeg" alt="">
+</div>
+
+<div class="text_container">
+    <h3>ENTERPRISE</h3>
+    <h2>Lorem ipsum dolor sit amet</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur, adipiscing elit. Sed non volutpat turpis. Mauris luctus
+        rutrum mi ut rhoncus. Integer in dignissim tortor. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+    </p>
+</div>
+
+<div>
+    <img src="images/men.jpg" alt="">
+    <span>Jon Doe</span>
+    <span>5 min read</span>
+</div>
+</li> */
