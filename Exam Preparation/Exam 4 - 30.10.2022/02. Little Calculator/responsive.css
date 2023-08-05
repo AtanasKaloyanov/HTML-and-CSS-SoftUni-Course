@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+
+    .button-primary {
+        width: 120px;
+    }
+
+    /* second section */
+    .site-logos-container {
+        min-width: 0
+    }
+
+    /* third section */
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-information {
+        justify-content: center;
+    }
+
+    .site-information-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    p.entry-description {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .entry-title {
+        font-size: 0.5rem;
+    }
+
+    .site-form form > p {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-form button {
+        margin: 0 auto;
+    };
+
+    .site-form input {
+        width: 100%
+    }
+
+    #first-name, #last-name {
+        width: 100%;
+    }
+
+    .site-posts {
+        flex-direction: column;
+    }
+
+    .site-blog-container h2 {
+        font-size: 3.6rem;
+    }
+
+    .site-post h2 {
+        font-size: 1.6rem;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-main {
+        margin: 0;
+    }
+
+    .site-form  {
+        margin-top: 0;
+    }
+
+    .site-blog-container {
+        padding: 7rem;
+        margin-top: 0;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+}
