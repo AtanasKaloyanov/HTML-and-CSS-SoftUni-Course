@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+/*
+ lila - hsl(274.86deg 47.95% 57.06%)
+ green - hsl(143.14deg 59.83% 54.12%)
+ blue - hsl(209.14deg 49.3% 58.24%)
+ lila - hsl(249.81deg 47.71% 57.25%)
+ gray - hsl(0deg 0% 90.2%)
+
+*/
+
+html {
+    line-height: 1.15;
+    font-family: 'Lato';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: hsl(296.84deg 8.92% 41.76%);
+    font-size: 20px;
+}
+
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+blockquote,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat';
+}
+
+img {
+    width: 200px
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+header div img {
+    width: 150px;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    margin-left: 20px;
+    text-align: center;
+}
+
+main>h2 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* first section */
+
+section:nth-child(1) {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section:nth-child(1)>h2 {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.first ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px
+}
+
+.first ul li {
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: relative;
+}
+
+.first li>div {
+    display: flex;
+    width: 82%;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    margin-top: 65px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.first li:nth-child(1) button {
+    padding: 10px 40px;
+    margin-top: 70px;
+    background-color: hsl(274.86deg 47.95% 57.06%);
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.first li:nth-child(1)>div {
+    flex-direction: column;
+    height: 120px;
+    background-color: hsl(143.14deg 59.83% 54.12%);
+    width: 82%;
+    color: white;
+}
+
+.first li:nth-child(1)>div p {
+    font-size: 22px
+}
+
+.first li>h2 {
+    margin: 40px 0;
+}
+
+.first_second p {
+    margin: 30px 0;
+}
+
+.first_third p {
+    margin: 20px 0
+}
+
+.first_second div, .first_third div {
+    height: 120px;
+}
+
+.first_second div {
+    background-color: hsl(209.14deg 49.3% 58.24%);
+    color: white
+}
+
+.first_third div {
+    background-color: hsl(249.81deg 47.71% 57.25%);
+    color: white
+}
+
+
+/* second section */
+table {
+    border-collapse: collapse;
+}
+
+.second {
+    margin-top: 100px;
+    padding: 0 100px;
+    margin-left: 200px;
+}
+
+.second h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.second p {
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.second table {
+    width: 1200px;
+}
+
+.second table img {
+    width: 20px;
+}
+
+.second table tr {
+    height: 50px;
+}
+
+.odd,
+.even {
+    text-indent: 20px;
+}
+
+.odd {
+    background-color: hsl(0deg 0% 90.2%);
+}
+
+.even {
+    background-color: hsl(0deg 0% 97.25%);
+}
+
+.last {
+    padding-left: 120px;
+}
+
+/* third section */
+
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+    padding: 0 100px;
+    margin: 80px 0;
+    margin-right: 60px;
+}
+
+
+.third div:nth-child(1) {
+    width: 65%;
+    margin-right: 80px;
+}
+
+.third p:nth-child(2) {
+    margin: 30px 0;
+}
+
+.third img {
+    width: 300px;
+    margin-left: 80px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 65px;
+    color: white;
+    background-color: hsl(249.81deg 47.71% 57.25%);
+}
+
+footer p {
+    opacity: 0.3;
+}
+
+
+
+
+/* <section class="third">
+<div>
+    <h2>Финансиране от Пощенска банка</h2>
+    <p>Всички курсисти могат да се възползват от преференциалните условия за потребителски кредит и
+        овърдрафт, за финансиране
+        на своето обучение в СофтУни, като заявят лесно и удобно избрания продукт:</p>
+
+    <p>
+        При последващ разговор със служител на банката, следва да се уточни, че искането е за кредит за
+        финансиране на обучение
+        в SoftUni и да се предостави студентски номер.
+        www.postbank.bg - при попълване на апликацията, в поле „промоционален код“ трябва да се въведe
+        SoftUni/ СофтУни и при
+        последващ разговор със служител на банката, да се предостави студентски номер.
+    </p>
+</div>
+
+<div><img src="images/postbank-logo.png" alt=""></div>
+</section> */
