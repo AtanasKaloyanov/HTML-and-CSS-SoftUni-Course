@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+/* hsl(0deg 78.54% 45.69%); red
+hsl(355.88deg 62.2% 67.84%) red  
+*/
+
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.15;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  margin: 0;
+}
+
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+blockquote,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 200px
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0deg 78.54% 45.69%);
+  color: hsl(11.25deg 76.19% 91.76%);
+  height: 50px;
+  text-align: center;
+  padding: 0 60px;
+}
+
+header i {
+  margin-right: 10px;
+}
+
+header ul {
+  display: flex;
+}
+
+a {
+  color: hsl(11.25deg 76.19% 91.76%)
+}
+
+/* first */
+.first {
+  background-image: url(image/fitness-main.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.first nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+.first nav li {
+  margin-right: 80px;
+  font-size: 18px;
+}
+
+.first a {
+  color: whitesmoke;
+}
+
+.first a:hover {
+  color: hsl(0deg 78.54% 45.69%);
+}
+
+.first div {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.first div h1 {
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.first div p {
+  width: 490px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.first div button {
+  display: block;
+  color: white;
+  background-color: hsl(0deg 78.54% 45.69%);
+  margin-left: 340px;
+  margin-top: 30px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.first div button:hover {
+ transform: scale(1.3);
+}
+
+/* second section */
+
+hr {
+  width: 40px;
+  margin: 0 auto;
+  border-color: hsl(0deg 78.54% 45.69%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.second {
+  height: 300px;
+  text-align: center;
+}
+
+.second ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.second img {
+  width: 50px;
+}
+
+.second > h2 {
+  margin: 30px 0;
+  font-size: 40px;
+}
+
+.second ul li {
+  text-align: center;
+  width: 300px;
+}
+
+.second ul li  h2 {
+  color: hsl(0deg 78.54% 45.69%);
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+/* third */
+.third {
+text-align: center;
+height: 500px;
+background-color: hsl(0deg 0% 93.73%);
+}
+
+.third > h2 {
+  margin: 30px 0;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.third ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.third ul li {
+  width: 400px;
+}
+
+.third ul li  h4 {
+  color: hsl(0deg 78.54% 45.69%);
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.third ul li p {
+  opacity: 0.2;
+}
+
+.third img {
+  width: 300px;
+  margin-bottom: 10px;
+
+}
+
+.third li h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0deg 78.54% 45.69%);
+  height: 30px;
+  padding: 10px 0;
+  
+}
+
