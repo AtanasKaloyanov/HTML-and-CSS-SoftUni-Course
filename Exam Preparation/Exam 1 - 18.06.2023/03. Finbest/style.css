@@ -1,0 +1,430 @@
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+html {
+    line-height: 1.15;
+    font-family: 'Inter';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* green hsl(176.6deg 47.75% 78.24%) */
+
+body {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    background-color: white;
+    margin: 0;
+    background-color: hsl(222.86deg 41.18% 96.67%);
+}
+
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+blockquote,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 200px
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 160px;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+header a {
+    color: black;
+}
+
+header nav:nth-child(2) ul li:nth-child(2) {
+    background-color: hsl(176.6deg 47.75% 78.24%);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+header nav:nth-child(2) ul li:nth-child(1):hover {
+    cursor: pointer;
+    color: hsl(176.6deg 47.75% 78.24%);
+}
+
+header nav:nth-child(2) ul li:nth-child(2):hover {
+    transform: scale(1.3);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav:nth-child(1) a:hover {
+    color: hsl(176.6deg 47.75% 78.24%);
+}
+
+/* first */
+
+.first {
+    background-color: hsl(176.6deg 47.75% 78.24%);
+    height: 400px;
+    text-align: center;
+}
+
+.first>h1 {
+    font-size: 75px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+
+.first>p {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.first div button {
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.first div button:hover {
+    transform: scale(1.2);
+}
+
+.first div button:nth-child(1) {
+    margin-right: 5px;
+}
+
+.first div button:nth-child(1) {
+
+    margin-left: 5px;
+}
+
+.first div button i {
+    color: white
+}
+
+.first i {
+    margin-right: 10px;
+}
+
+/* second */
+
+.second {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second ul {
+    display: flex;
+    justify-content: center;
+    height: 220px
+}
+
+.second ul li {
+    text-align: center;
+    width: 350px;
+
+}
+
+.second ul li:nth-child(1),
+.second ul li:nth-child(2) {
+    border-right: 1px solid gray
+}
+
+.second ul li h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.second ul li p {
+    font-size: 16px;
+}
+
+/* third */
+
+.third {
+    display: flex;
+    height: 500px;
+    background-color: hsl(176.6deg 47.75% 78.24%);
+}
+
+.third div:nth-child(1) {
+    border: 1px dashed;
+    margin-left: 300px;
+    width: 400px;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.third img {
+    width: 300px;
+}
+
+.third div:nth-child(2) {
+    width: 550px;
+}
+
+.third div:nth-child(2)>h1 {
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.third div:nth-child(2)>p {
+    margin: 20px 0;
+    line-height: 1.3;
+}
+
+.third div:nth-child(2) p:nth-child(2),
+.third div:nth-child(2) p:nth-child(4) {
+    font-weight: 600;
+}
+
+.third div:nth-child(2) p:last-child {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 190px;
+    margin-top: 30px;
+}
+
+.third i {
+    margin-left: 10px;
+}
+
+/* fourth */
+.fourth {
+    text-align: center;
+}
+
+.fourth {
+    height: 230px;
+}
+
+.fourth button {
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: hsl(176.6deg 47.75% 78.24%);
+    cursor: pointer
+}
+
+.fourth button:hover {
+    transform: scale(1.3);
+}
+
+.fourth h1 {
+    font-size: 40px;
+}
+
+
+
+/* fifth */
+.fifth {
+    display: flex;
+    height: 560px;
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+
+.fifth>ul {
+    display: flex;
+    width: 90%;
+    background-color: white;
+    text-align: left;
+}
+
+.fifth ul li {
+    padding: 40px;
+}
+
+.fifth li>h3 {
+    text-align: center;
+}
+
+.fifth li>h2 {
+    font-size: 40px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.fifth hr {
+    margin-bottom: 30px;
+    border: 1px solid lightgray;
+}
+
+.fifth li div p {
+    margin-bottom: 20px;
+}
+
+.fifth li>button {
+    text-align: center;
+    padding: 15px 80px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-color: hsl(176.6deg 47.75% 78.24%);
+    font-size: 14px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.fifth li>button:hover {
+    transform: scale(1.3);
+}
+
+.fifth i {
+    margin-right: 10px;
+}
+
+.fifth div:nth-child(2) {
+    background-color: hsl(176.6deg 47.75% 78.24%);
+    padding-left: 45px;
+    position: relative;
+}
+
+.fifth div:nth-child(2) h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.fifth div:nth-child(2) h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.fifth div:nth-child(2) p {
+    margin-bottom: 15px;
+}
+
+.fifth div:nth-child(2) button {
+    width: 90%;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 50px;
+    font-size: 16px;
+}
+
+.fifth div:nth-child(2) button:hover {
+    transform: scale(1.03);
+}
+
+/* sixth */
+
+.sixth {
+    background-color: hsl(176.6deg 47.75% 78.24%);
+    height: 520px;
+    text-align: center;
+}
+
+.sixth h1 {
+    font-size: 75px;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+.sixth p {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.sixth div:nth-child(1) {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.sixth div:nth-child(2) {
+    margin-top: 60px;
+}
+
+.sixth div button {
+    padding: 15px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sixth div button:hover {
+    transform: scale(1.3);
+}
+
+.sixth div button:nth-child(1) {
+    margin-right: 5px;
+}
+
+.sixth div button i {
+    color: white;
+    margin-right: 5px;
+}
+
+/* footer */
+
+footer {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    text-align: center;
+}
+
+footer i {
+    margin-left: 20px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul a {
+    color: black;
+}
