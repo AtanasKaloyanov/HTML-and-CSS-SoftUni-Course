@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+html {
+    line-height: 1.15;
+    font-family: 'Mulish';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: #000000;
+    background-image: url(images/background.png);
+    background-size: cover;
+}
+
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+blockquote,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 900px;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 25px;
+    background-image: url(images/form-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    box-shadow: 20px 20px 10px 2px hsl(0deg 0.87% 54.9%);
+}
+
+form {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+form h1 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 50px;
+}
+
+button {
+    display: block;
+    position: absolute;
+    background-color: hsl(4.39deg 54.67% 44.12%);
+    left: 140px;
+    bottom: 60px;
+    padding: 10px 18px;
+    color: whitesmoke;
+    border: 1px solid hsl(4.08deg 42.74% 52.75%);
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+form {
+    padding-left: 50px;
+}
+
+div>label:nth-child(1) {
+    display: inline-block;
+    margin-right: 130px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 5px;
+}
+
+input {
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+div > div input:nth-child(1) {
+    margin-right: 25px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul li {
+    margin-top: 20px;
+}
+
+ul li input {
+    display: block;
+    width: 84%;
+    margin-top: 10px;
+}
+
+form > input {
+    position: relative;
+    top: 9px;
+    margin: 5px;
+    left: 5px;
+    margin-right: 10px;
+}
+
+label {
+    font-size: 13px;
+}
+
+
+
+
