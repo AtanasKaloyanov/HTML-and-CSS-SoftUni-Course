@@ -1,0 +1,73 @@
+@media (max-width: 600px) {
+    /* header */
+
+    header nav {
+        flex-direction: column;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul li {
+        margin-top: 10px;
+    }
+
+    .header-title {
+        padding: 1rem 0;
+    }
+
+    .header-title h1 {
+        font-size: 35px;
+    }
+
+    .header-title p {
+        font-size: 15px;
+    }
+
+    /* first section  */
+
+    .team-description-wrapper,
+    .about-us {
+        width: 100%;
+    }
+
+    /* second section */
+
+    .team-description ul {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .team-description ul li {
+        margin-bottom: 40px;
+    }
+/* 
+    third section */
+
+    .choose-us ul {
+        flex-direction: column;
+        padding: 0 100px;
+    }
+
+    /* fourth section  */
+
+    .blog-news ul {
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .blog-news ul li {
+        margin-bottom: 30px;
+    }
+
+    .blog-news ul .item {
+        box-shadow: none;
+    }
+
+
+}
