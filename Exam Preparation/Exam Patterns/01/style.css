@@ -1,0 +1,76 @@
+@import url();
+
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+html {
+    line-height: 1.15;
+    font-family: да се намери;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: #000000;
+    background-color: да се намери;
+}
+
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+blockquote,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+section {
+    width: 1800px;
+    height: 800px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+section ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+section ul li {
+    width: 25%;
+    margin-right: 40px;
+    box-shadow: 0 0 10px 2px gray;
+}
+
+section ul li:hover {
+    transform: scale(1.02);
+}
+
+img {
+    width: 200p;
+}

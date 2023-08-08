@@ -1,0 +1,54 @@
+@import url(линк към шрифта от условието на задачата); или взимане на линка от fontawesome;
+
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+
+html {
+    line-height: 1.15;
+    font-family: да се намери;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: да се намери;
+    background-color: да се намери;
+margin: 0;
+  }
+  
+  p,
+  li,
+  ul,
+  pre,
+  div,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  figure,
+  blockquote,
+  figcaption {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+a {
+    text-decoration: none;
+  }
+
+  img {
+    width: 200px
+  }
