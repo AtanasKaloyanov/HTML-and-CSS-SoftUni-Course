@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+@import url('https://use.fontawesome.com/releases/v6.2.1/css/all.css');
+
+
+html {
+  line-height: 1.15;
+  font-family: 'Inter';
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  background-color: hsl(0deg 0% 85.1%);
+  margin: 0;
+}
+
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+blockquote,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 200px
+}
+
+/* header  */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  padding-top: 30px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin-right: 30px;
+
+}
+
+header ul li a {
+ color: black;
+}
+
+header ul li a:hover {
+   color: hsl(16.09deg 100% 64.9%);
+}
+
+header button {
+  padding: 5px 12px;
+}
+
+header button:hover {
+cursor: pointer;
+transform: scale(1.4);
+}
+
+/* first */
+.first {
+ background-image: url(images/background.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position:  center center;
+  height: 500px;
+}
+
+.first div {
+  width: 40%;
+
+  padding-left: 200px;
+}
+
+.first div h1 {
+  font-size: 40px;
+  padding: 0 80px;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  width: 50%;
+}
+
+.first div p {
+  color: white;
+    margin-left: 80px;
+    width: 65%;
+    margin-bottom: 40px;
+}
+
+.first div button {
+  background-color: hsl(0deg 0% 0%);
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+
+.first div button:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+/* second */
+
+.second {
+  background-color: white;
+  height: 220px;
+}
+
+.second ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.second ul li h1 {
+  margin-top: 50px;
+  color: hsl(16.14deg 100% 66.47%);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.second ul li p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* third */
+
+.third ul {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  padding: 30px 50px;
+  padding-bottom: 0;
+}
+
+.third ul li {
+  height: 33%;
+  display: flex;
+}
+
+li div:nth-child(1) {
+  width: 400px;
+  height: 300px;
+}
+
+.third img {
+  width: 100%;
+  height: 100%;
+}
+
+li div.contain {
+  padding: 30px;
+}
+
+li div.contain h2 {
+  margin: 30px 0;
+}
+
+li div.contain h3 {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contain p:nth-child(4) {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.contain p:nth-child(5), .contain p:nth-child(3) {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+/* fourth */
+
+.fourth {
+  height: 500px;
+  padding: 0 200px;
+  background-color: hsl(0deg 0% 96.08%);
+}
+
+.fourth > div {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth > div div {
+  width: 33%;
+  text-align: center;
+}
+
+.plans div:nth-child(1) {
+text-align: left;
+padding-left: 50px;
+width: 30%;
+}
+
+.plans div:nth-child(1) h1 {
+  padding: 50px 0;
+    font-size: 30px;
+}
+
+.plans div:nth-child(1) p {
+ width: 95%;
+ font-weight: 200;
+ 
+}
+
+.plans div:nth-child(2) {
+  background-color: hsl(16.09deg 100% 64.9%);
+    height: 80%;
+    margin-top: 50px;
+    width: 25%;
+    margin-right: 100px;
+    position: relative;
+}
+
+.plans div:nth-child(3) {
+  background-color: black;
+  color: white;
+    height: 80%;
+    margin-top: 50px;
+    width: 25%;
+    margin-right: 120px;
+    position: relative;
+}
+
+.plans button {
+  position: absolute;
+  bottom: 30px;
+  left: 140px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.plans button:hover {
+  transform: scale(1.3);
+}
+
+.plans div:nth-child(2) button {
+  color: white;
+  background-color: hsl(0deg 0% 0%);
+  border: 1px solid hsl(0deg 0% 0%);
+  cursor: pointer;
+}
+
+.plans div:nth-child(3) button {
+  color: black;
+  background-color: white;
+  border: 1px solid hsl(0deg 0% 0%);
+  cursor: pointer;
+}
+
+
+div.plans_pl h3{
+  margin: 40px 0;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+div.plans_pl h1 {
+ font-size: 50px; 
+ font-weight: 300;
+ margin-bottom: 30px;
+}
+
+div.plans_pl p {
+margin-bottom: 7px;
+}
+
+div.plans_pl p span:nth-child(1) {
+  font-weight: 700;
+}
+
+div.plans_pl p:nth-child(6) span {
+  font-weight: 700;
+}
+
+footer {
+ height: 80px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+footer a {
+  color: black;
+}
+
+footer ul li:hover {
+  transform: scale(1.6);
+}
+
